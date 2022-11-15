@@ -1,7 +1,7 @@
-## Interface: 100000
+## Interface: 100002
 ## Version: 1.0.0
-## Title: InteractiveBobber
-## Notes: Make bobber more interactive
+## Title: InteractiveFishingBobber
+## Notes: Make the fishing bobber easier to activate when using the 'interact' key
 ## Author: Smef
 
-InteractiveBobber.lua
+InteractiveFishingBobber.lua
