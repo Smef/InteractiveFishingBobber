@@ -1,0 +1,7 @@
+## Interface: 100000
+## Version: 1.0.0
+## Title: InteractiveBobber
+## Notes: Make bobber more interactive
+## Author: Smef
+
+InteractiveBobber.lua
