@@ -7,9 +7,14 @@ local originalRange = GetCVar("SoftTargetInteractRange");
 
 
 local function eventHandler(self, event, unitTarget, castGUID, spellID)
+	if spellID ~= 131476 then return end
+	if unitTarget ~= "player" then return end
+
+
+	print ("Target - " .. unitTarget)
 
 	-- print("Event - " .. event .. " - " .. spellID);
-	 if (event == "UNIT_SPELLCAST_CHANNEL_START" and spellID == 131476) then
+	 if (event == "UNIT_SPELLCAST_CHANNEL_START") then
 		-- print("Start - " .. event .. " - " .. spellID);
 		originalArc = GetCVar("SoftTargetInteractArc");
 		originalRange = GetCVar("SoftTargetInteractRange");
@@ -24,7 +29,7 @@ local function eventHandler(self, event, unitTarget, castGUID, spellID)
 
 	end
 
-	if (event == "UNIT_SPELLCAST_CHANNEL_STOP" and spellID == 131476) then
+	if (event == "UNIT_SPELLCAST_CHANNEL_STOP") then
 		-- print("Stop - " .. event .. " - " .. spellID);
 		-- print("Resetting Arc to: " .. originalArc);
 		-- print("Resetting Arc to: " .. originalRange);
