@@ -11,7 +11,7 @@ local function eventHandler(self, event, unitTarget, castGUID, spellID)
 	if unitTarget ~= "player" then return end
 
 
-	print ("Target - " .. unitTarget)
+	-- print ("Target - " .. unitTarget)
 
 	-- print("Event - " .. event .. " - " .. spellID);
 	 if (event == "UNIT_SPELLCAST_CHANNEL_START") then
