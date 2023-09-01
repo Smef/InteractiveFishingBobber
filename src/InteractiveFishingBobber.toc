@@ -1,0 +1,7 @@
+## Interface: 100107
+## Version: 1.0.7
+## Title: Interactive Fishing Bobber
+## Notes: Make the fishing bobber easier to activate when using the 'interact' key
+## Author: Smef
+
+src\InteractiveFishingBobber.lua

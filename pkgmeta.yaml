@@ -1,0 +1,13 @@
+package-as: InteractiveFishingBobber
+
+move-folders:
+  # This moves KillerCupcakes/Modules/Fire to the same level as KillerCupcakes, as KillerCupCakesOnFire
+  #KillerCupcakes/Modules/Fire: KillerCupcakesOnFire
+  src: InteractiveFishingBobber
+
+# Ignore takes place before folder's moving takes place
+ignore: # Files and directories beginning with a dot (such as .git) are automatically ignored, as is the pgkmeta file itself.
+  - pkgmeta.yaml
+  - zip-addon.sh
+  -
+license-output: LICENSE
