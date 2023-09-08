@@ -9,5 +9,6 @@ package-as: InteractiveFishingBobber
 ignore: # Files and directories beginning with a dot (such as .git) are automatically ignored, as is the pgkmeta file itself.
   - pkgmeta.yaml
   - zip-addon.sh
+  - .gitignore
 
 license-output: LICENSE
