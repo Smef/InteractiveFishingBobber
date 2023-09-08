@@ -4,4 +4,4 @@
 ## Notes: Make the fishing bobber easier to activate when using the 'interact' key
 ## Author: Smef
 
-src\InteractiveFishingBobber.lua
+InteractiveFishingBobber.lua
