@@ -1,5 +1,5 @@
-## Interface: 120000
-## Version: 1.0.30
+## Interface: 110207
+## Version: 1.0.31
 ## Title: Interactive Fishing Bobber
 ## Notes: Make the fishing bobber easier to activate when using the 'interact' key
 ## Author: Smef
